@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=boxType
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ boxType\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=boxType()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ boxType\r\n
+comment2.params=print\ bottomReinforcement\ topReinforcement
+comment2.target=int\ calculateBoxType(int,\ boolean,\ boolean)
+numComments=3

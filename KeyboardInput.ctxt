@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=KeyboardInput
+comment0.text=\r\n\ Class\ to\ manage\ keyboard\ input\ from\ the\ console\r\n\ @author\ AncientC\r\n
+comment1.params=
+comment1.target=KeyboardInput()
+comment1.text=\r\n\ Constructor\ for\ Input\ Class\r\n
+comment2.params=
+comment2.target=java.lang.String\ getInputString()
+comment2.text=\r\n\ Method\ to\ get\ a\ string\ which\ has\ been\ input\ on\ the\ console\r\n\ @return\ The\ string\ input\ from\ the\ console\r\n
+comment3.params=
+comment3.target=int\ getInputInteger()
+comment3.text=\r\n\ Method\ to\ get\ an\ integer\ which\ has\ been\ input\ on\ the\ console\r\n\ @return\ Integer\ value\ which\ has\ been\ entered\ in\ the\ console.\ \ It\ will\ return\ 999999\ if\ the\ integer\ is\ not\ valid.\r\n
+comment4.params=
+comment4.target=double\ getInputDouble()
+comment4.text=\r\n\ Method\ to\ get\ an\ decimal\ number\ which\ has\ been\ input\ on\ the\ console\r\n\ @return\ Double\ value\ which\ has\ been\ entered\ in\ the\ console.\ \ It\ will\ return\ 999999.999999\ if\ the\ integer\ is\ not\ valid.\r\n
+numComments=5

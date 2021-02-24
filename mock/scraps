@@ -1,0 +1,140 @@
+<div class="grid-column-50 height" style="background-color: #008BE5;">
+  <div class="grid-column-center content-align-center">
+    <article>
+      <img class="column-image-header tilt" src="ImageAssets/columnHeaders/Contact.png" alt="Contact Image">
+      <div class="text-Container">
+        <h1>Contact</h1>
+        <p>Please feel free to get in touch if you have any enquiries, questions or issues using the form provided. Please be sure when filling out the form to use a real working email address that belongs to you, if a working email address is not provided then I shall not be able reply to your message. Replies to enquiries, questions or issues will be sent within two working days after the arrival of your message.</p>
+        <p>Alternatively, if the form is not cutting it for your needs then you can contact myself using one of the means shown below.</p>
+      </div>
+      <div>
+        <div class="contact-icons">
+          <ul>
+            <li>
+              <a href="https://twitter.com/SRP_Designs" target="_blank">
+                <img class="tilt" height="50" width="55" src="ImageAssets/Socials/twitterPNG_default.png" alt="Twitter Icon">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/_SRPDesigns/" target="_blank">
+                <img class="tilt" height="50" width="50" src="ImageAssets/Socials/instagramPNG.png" alt="Instagram Icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="images-container">
+          <div class="grid-column-50 height" style="background-color: #363636;">
+            <div class="grid-column-center-10">
+
+              <form name="contactForm" action="mail.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name *" maxlength="20" required class="Input input-Width-Large formFont">
+
+                <input type="text" name="email" placeholder="Your Email *" maxlength="40" required class="Input input-Width-Large formFont">
+
+                <input type="text" name="phone" placeholder="Your Phone Number" maxlength="40" class="Input input-Width-Large formFont">
+
+                <input type="text" name="subject" placeholder="Subject *" maxlength="30" required class="Input input-Width-Large formFont">
+
+                <textarea name="message" placeholder="Your Message *" rows="6" cols="25" maxlength="500" required class="textArea input-Width-Large formFont"></textarea>
+
+                <p class="infoText">Field's marked with a * are required</p>
+
+                <input type="submit" value="Send" class="formButton formFont">
+                <input type="reset" value="Clear" class="formButton formFont">
+              </form>
+
+            </div>
+          </div>
+          <form action="?" method="POST">
+        <div id="html_element"></div>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+      <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+          async defer>
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="projects">
+        <h1> Creating a web server</h1>
+        <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Show</button>
+        <div id="myDropdown" class="dropdown-content">
+          <article id="web">
+                <p>When creating this website I needed some form of a web server to host it.
+      Using a Raspberry Pi I was able to create an Apache web server which allowed me to host my site.
+      The process of setting up the raspberry pi and installing the Apache server was straightforward.
+      The more complicated part was directing my domain name to the raspberry pi itself.
+      This was done by directing the domain name to my router and then using port forwarding to forward all requests to the raspberry pi.
+      Overall this only took around two hours to complete as the updates take some time to complete.
+      This is a great way of hosting a site as it also means you don't have to pay for cloud hosting.</p>
+           </article>
+        </div>
+      </div>
+
+      <div class="projects">
+        <h1> Creating NAS</h1>
+        <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Show</button>
+        <div id="myDropdown" class="dropdown-content">
+          <article id="web">
+            <p>Network Attached Storage options are still relatively expensive. For example the 3TB WD My Cloud is priced at £178.99 on Amazon.
+      Using a Raspberry Pi I was able to install a samba server and then connect multiple hard drives to the raspberry pi and sharing them on the network.
+      Currently, I am using a 3TB hard drive which stores daily backups of certain files on my computer and weekly updates of all files on my computer (see my backup scripts on the coding projects page). The second hard drive is used to store media files.
+      The NAS drives have made it easier to access files on both my pc and laptop and it also allows me to keep all backups in one place. It has also made it easier to
+      share files with other people on the network. The total time it took to complete the project was about an hour. The total cost of the project was only £50 as I already had
+      the hard drives to use.</p>
+           </article>
+        </div>
+      </div>
